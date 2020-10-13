@@ -4,10 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>TimePro</title>
 </head>
 <body>
-    
-<script src="script.js"></script>    
+    <nav id="nav">
+        <div class="navbar">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <section id="Home">
+        <div class="home">
+            <h1><br>Welcome to TimePro<br>
+            Start managing your time efficiently
+            </h1>
+        </div>
+    </section>
+    <section id="About">
+        <div class="about">
+            <h1>About</h1>
+            <p>If you're a student that has trouble managing your time effectively, you've come to the right place.
+               With our site, we can help you properly schedule your time blocking properly with school and other work.
+               Users can also make profiles to connect with and start effective scheduling for groups or companies as well.
+               We are just starting out, but eventually we will have a calendar built in as well!
+            </p>
+        </div>
+    </section>
+    <section id="Services">
+        <h1>Our Services</h1>
+        <p>Check out some of the features we have planned out:</p>
+        <div class="card-flex">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="container">
+                    <h2>Time Block Scheduling</h2>
+                    <p>
+                        Users will be able to input their classes or work schedules and create a proper time block
+                        to manage their weeks. Having this will allow the users to manage all their daily work around
+                        their classes or other activities.
+                    </p>
+                </div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="container">
+                    <h2>Calendar Planning</h2>
+                    <p>
+                        Having a calendar implemented in our site will let users manage all their events. Using the inputs
+                        they put in from the time block scheduling, users can make sure they have everything down to date 
+                        and time to make sure everything gets done.
+                    </p>
+                </div>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="container">
+                    <h2>Groups</h2>
+                    <p>
+                        One more feature we want to add is the use of groups. Having users create groups based around
+                        their workplace or school class will allow coworkers to schedule work or events properly. Having a chat 
+                        function as well will greatly improve productivity with their collaboration.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="Contact">
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Enter your information below for further updates:
+            </p>
+            <label>
+                <input type="text" id="name" placeholder="Name">
+            </label>
+            <label>
+                <input type="text" id="email" placeholder="Email">
+            </label>
+            <button class="submit">Submit</button>
+        </div>
+    </footer>
+<script src="script.js"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>   
 </body>
 </html>
