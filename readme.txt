@@ -1,5 +1,5 @@
 TimePro
 
-This webpage is a base for an app that helps students manage time efficiently. 
-Users will be able to input their work, schedule proper time blocks, and use it to complete work 
-effectively.
+This website is a landing page for an app that helps students manage time efficiently. 
+There is an into section, about the app, and an services info card section. Users will have
+an input section to be contacted for further updates about the app as well.
