@@ -1,0 +1,143 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+.font-effect-3d-float {
+    font-family: 'Roboto';
+    font-size: 3em;
+    font-weight: lighter;
+}
+p , .signup {
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+h2 {
+    font-family: 'Roboto';
+    font-size: 2em;
+    text-decoration: underline;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f3c88;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+.navbar li {
+    float: left;
+    border-right: 1px solid #f6f5f5;
+    font-family: 'Roboto';
+  }
+  
+.navbar li a {
+    display: block;
+    color: #f6f5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar li a:hover {
+    background-color: #2a3d66;
+}
+.card-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    background-color: #1f3c88;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+} 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+}
+.container p {
+    text-align: center;
+    line-height: 1.3;
+}
+.home {
+    display: flex;
+    background-image: url(images/navy-bg.jpg);
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/barkblue-bg.jpg);
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg-2.jpg);
+    min-height: 575px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/dark-bg.jpg);
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+input {
+    font-size: 110%;
+    padding: 2px;
+    border-radius: 3px;
+}
+button {
+    padding: 3px;
+    margin: 4px 4px 4px 4px;
+}
