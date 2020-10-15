@@ -144,7 +144,18 @@ input {
 }
 button {
     padding: 3px;
-    margin: 4px 4px 4px 4px;
+    margin: 8px 4px 4px 4px;
+    width: 80px;
+    font-family: 'Roboto';
+}
+button:hover {
+    background-color: lightgray;
+    text-decoration: none;
+    border-radius: 3px;
+}
+button:active {
+    background-color: gray;
+    border-radius: 3px;
 }
 img {
     display: block;
