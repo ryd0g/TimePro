@@ -12,6 +12,10 @@ p , .signup {
     font-size: 1.3em;
     font-weight: lighter;
 }
+h1 {
+    font-family: 'Roboto';
+    font-size: .7em;
+}
 h2 {
     font-family: 'Roboto';
     font-size: 2em;
