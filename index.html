@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans&effect=3d-float">
     <title>TimePro</title>
 </head>
@@ -21,25 +22,31 @@
     </nav>
     <section id="Home">
         <div class="home">
+          <h3 class="title">
             <div class="font-effect-3d-float"><br>TimePro<br>
-            <h1>Start managing your time efficiently</h1>
+            <h1 class="subtitle">Start managing your time efficiently</h1>
             </div>
+          </h3>
         </div>
     </section>
     <section id="About">
         <div class="about">
+          <div class="text-fade" data-aos="fade-down" data-aos-duration="1000">
             <div class="font-effect-3d-float">About Us</div>
             <p>If you're a student that has trouble managing your time effectively, you've come to the right place.
                With our site, we can help you properly schedule your time blocking properly with school and other work.
                Users can also make profiles to connect with and start effective scheduling for groups or companies as well.
                We are just starting out, but eventually we will have a calendar built in as well!
-            </p> 
+            </p>
+          </div>
         </div>
     </section>
     <section id="Services">
       <div class="services">
+       <div class="text-fade" data-aos="fade-down" data-aos-duration="1000">
         <div class="font-effect-3d-float">Our Services</div>
         <p>Check out some of the features we have planned out:</p>
+       </div>
         <div class="card-flex">
             <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <img src="images/timeblock.png" alt="timeblock">
@@ -80,6 +87,7 @@
     </section>
     <footer id="Contact">
         <div class="contact">
+          <div class="text-fade" data-aos="fade-down" data-aos-duration="1000">
             <div class="font-effect-3d-float">Contact Us</div>
             <p>
                 Enter your information below for further updates:
@@ -92,9 +100,14 @@
             </label>
             <button onclick="buttonPress()">Submit</button>
             <p id="signup"></p>
+          </div>
         </div>
     </footer>
 <script src="script.js"></script> 
+<script>
+    ScrollReveal().reveal('.title', { delay: 500 });
+    ScrollReveal().reveal('.subtitle', { delay: 700 })
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
